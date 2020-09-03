@@ -1,0 +1,48 @@
+.ui-icon-book:after {
+    background-image: url(images/cust-icon-a1.png);
+    background-size: 18px 18px;
+}
+.ui-icon-dvd:after {
+    background-image: url(images/cust-icon-b1.png);
+    background-size: 18px 18px;
+}
+.ui-icon-scan:after {
+    background-image: url(images/cust-icon-c1.png);
+    background-size: 18px 18px;
+}
+.ui-icon-select:after {
+    background-image: url(images/cust-icon-d1.png);
+    background-size: 18px 18px;
+}
+.ui-icon-nyt:after {
+    background-image: url(images/cust-icon-e1.png);
+    background-size: 18px 18px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+    .ui-icon-book:after {
+        background-image: url(images/cust-icon-a1@2x.png);
+        background-size: 18px 18px;
+    }
+	.ui-icon-dvd:after {
+        background-image: url(images/cust-icon-b1@2x.png);
+        background-size: 18px 18px;
+    }
+	.ui-icon-scan:after {
+        background-image: url(images/cust-icon-c1@2x.png);
+        background-size: 18px 18px;
+    }
+	.ui-icon-select:after {
+        background-image: url(images/cust-icon-d1@2x.png);
+        background-size: 18px 18px;
+    }
+	.ui-icon-nyt:after {
+        background-image: url(images/cust-icon-e1@2x.png);
+        background-size: 18px 18px;
+    }
+    
+}
+
+
+
+
