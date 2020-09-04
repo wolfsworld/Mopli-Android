@@ -19,6 +19,15 @@
     <preference name="android-minSdkVersion" value="19" />
     <preference name="android-targetSdkVersion" value="29" />
 	</platform>
+	<widget id="com.mopli.android" version="1.4.5" 
+xmlns="http://www.w3.org/ns/widgets"
+xmlns:android="http://schemas.android.com/apk/res/android" 
+xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<platform name="android">
+  <edit-config file="app/src/main/AndroidManifest.xml" mode="merge" target="/manifest/application">
+      <application android:usesCleartextTraffic="true" />
+  </edit-config>
+</platform>
     <gap:plugin name="cordova-plugin-whitelist" source="npm" />
 	<plugin name="phonegap-plugin-barcodescanner"/>
 	<preference name="android-build-tool" value="gradle" />
